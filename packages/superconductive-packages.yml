@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/project/great-expectations/
+packages:
+- language: python
+  registry: pypi
+  name: great-expectations
+  url: https://pypi.org/project/great-expectations/
+  install: pip install great-expectations
+  version: 1.19.0
+  license: Apache-2.0
+  official: true
+  description: >-
+    GX Core — the official Great Expectations Python library for data validation
+    and quality testing. Maintained by The Great Expectations Team
+    (team@greatexpectations.io). Python >=3.10,<3.14.
+  source_code: https://github.com/great-expectations/great_expectations

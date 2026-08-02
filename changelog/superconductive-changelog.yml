@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.greatexpectations.io/docs/changelog/
+scheme: semver
+policy: >-
+  Semantic Versioning 2.0.0. Deprecations appear in minor releases before
+  complete removal in major versions.
+current_version: 1.19.0
+entries:
+- version: 1.19.0
+  date: '2026-07-13'
+  highlights:
+  - Spark 4 support.
+  - Preserve date-like strings in SQL distinct value sets.
+  - Regex list validation improvements.
+- version: 1.18.2
+  highlights:
+  - Fix Spark Connect compatibility for .rdd usage in Spark distinct-values metrics.
+  - Multiple dependency updates.
+- version: 1.18.1
+  highlights:
+  - Fix HTML escaping for regex angle brackets in Data Docs.
+  - Remove the GX Cloud documentation site.
+- version: 1.18.0
+  breaking: true
+  highlights:
+  - Raise an error on CloudDataContext construction and remove cloud test suites as part of the GX Cloud shutdown.
+- version: 1.17.2
+  highlights:
+  - Fix boolean value handling in CSV asset addition.
+  - Restore SQLAlchemy 1.4 compatibility for column uniqueness checks.
+- version: 1.17.1
+  highlights:
+  - Fix Spark nested columns breaking unexpected index column names.
+  - Fix column name recognition in BatchData.

@@ -1,8 +1,28 @@
 aid: superconductive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superconductive.png
 name: Superconductive
-description: 'Superconductive is a company surfaced as a portfolio company of index-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: data. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Superconductive Inc. is the company behind Great Expectations (GX), an
+  open-source data quality framework used to validate, document, and profile
+  data across modern data stacks. Teams declare "Expectations" — assertions
+  about how data should behave — and GX Core, the Apache-2.0 Python library that
+  is the engine of the platform, tests batches of data against them, generates
+  human-readable Data Docs, and integrates with orchestration and cloud data
+  tools. Superconductive is backed by Index Ventures. GX is distributed
+  primarily as a Python package rather than a hosted REST API; the managed GX
+  Cloud SaaS offering has been wound down, leaving the open-source library as the
+  supported surface.
 url: https://raw.githubusercontent.com/api-evangelist/superconductive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +32,64 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Data
+- Data Quality
+- Data Validation
+- Data Testing
+- Open Source
+- Python
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/superconductive-domain-security.yml
 - type: Website
-  url: https://www.superconductive.com/
+  url: https://greatexpectations.io/
+- type: DeveloperPortal
+  url: https://docs.greatexpectations.io/
+- type: Documentation
+  url: https://docs.greatexpectations.io/docs/
+- type: APIReference
+  url: https://docs.greatexpectations.io/docs/reference/api_reference/
+- type: GettingStarted
+  url: https://docs.greatexpectations.io/docs/core/introduction/try_gx/
+- type: Support
+  url: https://discourse.greatexpectations.io/
+- type: Blog
+  url: https://greatexpectations.io/blog/
+- type: GitHubOrganization
+  url: https://github.com/great-expectations
+- type: Pricing
+  url: https://greatexpectations.io/pricing
+- type: TermsOfService
+  url: https://greatexpectations.io/terms-of-service/
+- type: PrivacyPolicy
+  url: https://greatexpectations.io/privacy-policy-updated/
+- type: Integrations
+  url: https://greatexpectations.io/integrations/
+- type: ChangeLog
+  url: https://docs.greatexpectations.io/docs/changelog/
+- type: ChangeLog
+  url: changelog/superconductive-changelog.yml
+- type: Deprecation
+  url: https://docs.greatexpectations.io/docs/changelog/
+- type: Packages
+  url: packages/superconductive-packages.yml
+- type: SDKs
+  url: packages/superconductive-packages.yml
+- type: Lifecycle
+  url: lifecycle/superconductive-lifecycle.yml
+- type: LLMsTxt
+  url: llms/superconductive-llms.txt

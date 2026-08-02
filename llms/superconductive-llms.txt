@@ -1,0 +1,31 @@
+# Superconductive / Great Expectations (GX)
+
+> Superconductive Inc. is the company behind Great Expectations (GX), an open-source (Apache-2.0) data quality framework. Teams declare "Expectations" about how data should behave, and GX Core — the Python library at the heart of the platform — validates batches of data against them, generates human-readable Data Docs, and integrates with modern data-stack tooling. GX is distributed primarily as a Python package rather than a hosted REST API. Backed by Index Ventures.
+
+## Product
+- [GX Core (docs)](https://docs.greatexpectations.io/docs/): The Great Expectations Python library — the engine of the data quality platform.
+- [GX Cloud](https://greatexpectations.io/cloud/): Managed SaaS offering (wound down; open-source library is the supported surface).
+
+## Docs
+- [Documentation](https://docs.greatexpectations.io/docs/)
+- [Getting Started (Try GX)](https://docs.greatexpectations.io/docs/core/introduction/try_gx/)
+- [Python API Reference](https://docs.greatexpectations.io/docs/reference/api_reference/)
+- [Changelog](https://docs.greatexpectations.io/docs/changelog/)
+- [Expectation Gallery](https://greatexpectations.io/expectations/)
+- [Integrations](https://greatexpectations.io/integrations/)
+
+## Packages
+- [great-expectations on PyPI](https://pypi.org/project/great-expectations/): `pip install great-expectations` (official, Apache-2.0, Python >=3.10,<3.14).
+
+## Code & Community
+- [GitHub organization](https://github.com/great-expectations)
+- [great_expectations repository](https://github.com/great-expectations/great_expectations)
+- [Discourse forum](https://discourse.greatexpectations.io/)
+- [Blog](https://greatexpectations.io/blog/)
+
+## Company & Legal
+- [Website](https://greatexpectations.io/)
+- [Pricing](https://greatexpectations.io/pricing)
+- [Terms of Service](https://greatexpectations.io/terms-of-service/)
+- [Privacy Policy](https://greatexpectations.io/privacy-policy-updated/)
+- [Legal Center](https://greatexpectations.io/legal-center/)

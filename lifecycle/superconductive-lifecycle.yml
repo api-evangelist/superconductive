@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.greatexpectations.io/docs/changelog/
+versioning:
+  scheme: semver
+  current: 1.19.0
+  docs: https://docs.greatexpectations.io/docs/changelog/
+deprecation:
+  policy: >-
+    Semantic Versioning 2.0.0 — deprecations appear in minor releases before
+    complete removal in the next major version.
+  policy_url: https://docs.greatexpectations.io/docs/changelog/
+  sunset_header: false
+notes: >-
+  Great Expectations (GX Core) is distributed as an Apache-2.0 Python library,
+  not a hosted REST API. The managed GX Cloud SaaS product was wound down in the
+  1.18.x line (CloudDataContext construction now raises; cloud test suites and
+  the GX Cloud docs site were removed). No public status page was found.
+status_page: null
