@@ -50,7 +50,7 @@ tags:
 - Data Quality
 - Data Validation
 - Data Testing
-- Open-Source
+- Open Source
 - Python
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Data Testing
 - Open Source
 - Python
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
